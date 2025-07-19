@@ -8,10 +8,22 @@ const Landing: React.FC = () => {
       <Card />
       <Card />
       <Card />
-
-      <Button title="Click Me" size="small" shape="rounded-sm" />
-      <Button title="Submit" size="medium" shape="rounded-md" />
-      <Button title="Join Now" size="large" shape="rounded-full" />
+      <Button
+        title="Click Me"
+        styles="text-sm rounded-sm bg-blue-500 text-white px-4 py-2"
+      />{" "}
+      <Button
+        title="Get Started"
+        styles="text-base rounded-md bg-green-500 text-white px-4 py-2"
+      />
+      <Button
+        title="Join Now"
+        styles="text-lg rounded-lg bg-purple-500 text-white px-4 py-2"
+      />
+      <Button
+        title="Join Now"
+        styles="text-lg rounded-full bg-purple-500 text-white px-4 py-2"
+      />
     </div>
   );
 };

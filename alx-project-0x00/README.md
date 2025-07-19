@@ -83,6 +83,12 @@ http://localhost:3000
 - Defined an interface `PillProps` to type the incoming prop.
 - Used the prop in JSX to render dynamic content.
 
+### Task 6 - Advanced Button Component
+
+- This task involved creating a reusable Button component that accepts the following props:
+  - title (string): The button's text
+  - styles (string): The buttons styles e.g. size, shape, color
+
 ## Tech Stack
 
 - **Next.js** (Pages Router)

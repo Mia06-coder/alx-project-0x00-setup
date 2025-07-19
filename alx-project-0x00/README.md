@@ -71,6 +71,18 @@ http://localhost:3000
 - Accepts props and renders dynamic UI elements
 - Uses images stored in public/assets/images
 
+### Task 4 - Using Components
+
+- Created a Pill component to represent labels or tags.
+- Created a Card component that imports and reuses the - Pill component multiple times with different text.
+- Ensured that the layout is responsive and consistent with design standards.
+
+### Task 5 - Typing Functional Components
+
+- Added a title prop to the Pill component.
+- Defined an interface `PillProps` to type the incoming prop.
+- Used the prop in JSX to render dynamic content.
+
 ## Tech Stack
 
 - **Next.js** (Pages Router)

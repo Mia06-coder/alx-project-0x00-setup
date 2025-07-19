@@ -65,6 +65,12 @@ http://localhost:3000
   - Visit `http://localhost:3000/landing`
   - Visit `http://localhost:3000/about`
 
+### Task 3 - Rendering Components
+
+- Created reusable card (`components/Card.tsx`) layout for future rendering of listings or content
+- Accepts props and renders dynamic UI elements
+- Uses images stored in public/assets/images
+
 ## Tech Stack
 
 - **Next.js** (Pages Router)
